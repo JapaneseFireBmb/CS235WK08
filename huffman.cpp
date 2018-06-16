@@ -3,7 +3,7 @@
  *    Week 08, Huffman
  *    Brother Helfrich, CS 235
  * Author:
- *    <your name>
+ *    Michael Schmidt, Evan Harrison, Mark Mayeda, Edvaldo Melo
  * Summary:
  *    This program will implement the huffman() function
  ************************************************************************/

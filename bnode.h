@@ -22,7 +22,7 @@ class BNode {
     
     //Constructors
     BNode() : data(T()), pLeft(NULL), pRight(NULL), pParent(NULL) {}
-    BNode(const T & t) : data(T), pLeft(NULL), pRight(NULL), pParent(NULL) {}
+    BNode(const T & t) : data(t), pLeft(NULL), pRight(NULL), pParent(NULL) {}
 };
 
 // Stand-alone functions
@@ -103,7 +103,7 @@ void copyBTree(BNode <T> * source) {
 * DELETETREE
 ************************************************************************/
 template <class T>
-void deleteBTree(BNode <T> * node) {
+void deleteBTree(BNode <T> * & node) {
   if(node = NULL) {
     return;
   }
